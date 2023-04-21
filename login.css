@@ -1,0 +1,158 @@
+body {
+
+background-image: url("1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'sans-serif', cursive;
+color: white;
+text-align: center;
+
+}
+.h{
+color: white;
+}
+.signup{
+  font-size: 18pt;
+}
+.welcome{
+  color: white;
+  font-size: 20pt;
+  font-style: italic;
+}
+.pic{
+    width: 350px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+.pic:hover{
+    transform:scale(1.15);
+    
+    transition: .5s ease-in-out;
+  }
+.rules{
+  color: white;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 13pt;
+}
+#submit {
+ cursor: grab;
+  height: 46px;
+  background: #E86C8D;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ /* background-color: #006666; */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: red;
+  font-style: italic;
+  font-size: 16pt;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #00b3b3;
+}
+
+.active {
+  background-color: lightyellow;
+}
+
+.about{
+  margin-top: 50px;
+  padding-bottom : 55px
+
+}
+
+
+.header {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+}
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxy {
+    display: block;
+    position: static;
+    height: 25px;
+    margin-top: 10px;
+    clear: both;
+  }
+  .button {
+  height: 44px;
+  border: none;
+  padding: 10px;
+}
+#email,  #name{
+  width: 100%;
+  margin: 5px;
+  background: #e89e54;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px;
+}
+
+
+#submit {
+ cursor: grab;
+  height: 46px;
+  background: #E86C8D;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+.content {
+    padding: 0 0 0 3em;
+    font-size: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:lavender;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lavender;
+  outline: none;
+}
+button:hover {
+  opacity:5;
+}
